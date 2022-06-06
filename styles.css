@@ -1,0 +1,41 @@
+body {
+    padding:0;
+  }
+  * {
+    font-family:sans-serif;
+  }
+  main:not(#tribute-info) {
+    margin:10px auto;
+    max-width:850px;
+    background-color:rgb(232, 225, 225);
+    padding:20px;
+  }
+  #image {
+    max-width:100%;
+    margin:0 auto;
+    width:100%;
+    display:block;
+  }
+  #title,#subtitle,h3,#img-caption {
+    text-align:center;
+  }
+  
+  ul{
+    max-width:70%;
+    margin: 20px auto;
+  }
+  
+  li {
+    margin:20px auto;
+    color:rgb(87, 84, 84);
+  }
+  
+  #bold {
+    font-weight:800;
+    color:rgb(55,55,55);
+  }
+  
+  #img-div {
+    background:white;
+    padding:5%;
+  }
